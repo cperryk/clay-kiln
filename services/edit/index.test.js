@@ -376,7 +376,7 @@ describe('edit service', function () {
   describe('schedulePublish', function () {
     var fn = lib[this.title];
 
-    it('POSTs to /schedule', function () {
+    it('POSTs to /schedule/', function () {
       var data = {
         at: 1,
         publish: 'fakeRef'
